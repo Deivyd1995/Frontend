@@ -1,0 +1,70 @@
+/* Etilos Generales*/
+h1, h2{
+    color: #005677;
+    background-color:#C4C4C4;
+    letter-spacing: 7px;    
+    text-transform: uppercase;
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+    padding-left: 13px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/*Esto es el Header*/
+.header{
+    background-color: #E6E6E6;
+}
+.logo{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Esto es el Main*/
+.section{
+    margin:0 auto;
+    width: 70%;
+    font-family: ui-sans-serif;
+}
+h2{
+    font-size: 20px;
+    padding-left: 8px;
+    padding-top: 6px;
+    padding-bottom: 7px;
+}
+ul{
+    margin-left: 15px;
+}
+dl{
+    margin-left: 60px;
+}
+li .resaltado{
+    font-style: italic;
+    font-weight: bold;
+}
+.resaltado{
+    font-weight: bold;
+}
+li, dd{
+     font-size: 15px;
+     }
+
+
+/*Esto es el Footer*/
+
+footer{
+   background: #005677;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+}
+footer > img{
+    margin-left:26px ;
+}
