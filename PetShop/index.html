@@ -5,40 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetShop</title>
+    <script src="https://kit.fontawesome.com/f1b93e0871.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     
     <header>
-        <div>
-            <p>Grandes ofertas en comederos</p>        
-            <p>Español</p>
-            <p>$ARG</p>   
+        
+        <div class="headerSuperior">
+            <p><span>Grandes ofertas en comederos</span></p>        
+            <p>Español <i class="fas fa-chevron-down"></i></p>
+            <p>$ARG <i class="fas fa-chevron-down"></i></p>   
         </div>
 
-        <div>
-            <img src="img/Logo.svg" alt="Logo">
+        <div class="headerInferior">
+            <h1><span><img class="gatito" src="img/gato-negro.png" alt="gatito">Front</span>Cat&Dog<img class="perrito" src="img/perro.png" alt="perrito"></h1>
             <nav>
                 <ul>
-                    <li><a href="#">Categorias</a></li>
-                    <li><a href="#">Pets</a></li>
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="#">Contactenos</a></li>
+                    <li><a href="#"><i class="fas fa-paw"></i>Categorias</a></li>
+                    <li><a href="#"><i class="fas fa-paw"></i>Pets</a></li>
+                    <li><a href="#"><i class="fas fa-paw"></i>Nosotros</a></li>
+                    <li><a href="#"><i class="fas fa-paw"></i>Contactenos</a></li>
                 </ul>
             </nav>
         </div>
+    
     </header>
 
     <main>
-        <section>
-            <img src="img/bowl-and-pet-daities-on-green-background 1.svg" alt="banner">
-            <h2>Es un placer tenerte aquí</h2>
-            <h4>!Comedores en descuento¡</h4>
+       
+        <section class="banner">
+            <!-- <img src="img/bowl.svg" alt="banner"> -->
+            <h2>¡Es un placer tenerte aquí!</h2>
+            <h4>¡Comedores en descuento!</h4>
             <h3>COMEDEROS</h3>
         </section>
 
         <section>
             <img src="img/pawprint1.png" alt="huella mediana" >
-            <h2 align="center">Productos Destacados</h2>
+            <h2>Productos Destacados</h2>
             <ul>
                 <li>Comederos -</li>
                 <li>Accesorios -</li>
@@ -65,8 +70,29 @@
     </main>
 
     <footer>
-        <p align="center">Todos los derechos reservados Front End</p>
-    </footer>
+        
+        <div class="footerSuperior">
+            <i class="fas fa-map-marker-alt"></i>
+            <h2>Localidad</h2>
+                <p>Calle - provincia</p>
 
+            <i class="fas fa-phone-volume"></i>
+            <h2>Teléfono</h2>
+                <p>Número de teléfono</p>
+
+            <i class="fas fa-envelope-square"></i>   
+            <h2>Correo Electrónico</h2>
+                <p>Dirección de correo</p>
+
+                <h2><img class="gatito" src="img/gato-negro.png" alt="gatito">Front<span>Cat&Dog</span><img class="perrito" src="img/perro.png" alt="perrito"></h2>
+
+        </div>
+        
+        <div class="footerInferior"><p>Todos los derechos reservados Front End</p>
+        </div>
+
+        
+
+    </footer>
 </body>
 </html>
